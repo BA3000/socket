@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  stdafx.cpp
+  dllmain.cpp
+  XTcp.cpp
+\\192.168.56.101\code\src\xsocket\xsocket\xtcp.cpp(78): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+\\192.168.56.101\code\src\xsocket\xsocket\xtcp.cpp(127): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(178): note: 参见“strerror”的声明
+  xsocket.cpp
+  正在生成代码...
+    正在创建库 ..\..\..\lib\xsocket.lib 和对象 ..\..\..\lib\xsocket.exp
+  xsocket.vcxproj -> \\192.168.56.101\code\src\xsocket\xsocket\..\..\..\bin\xsocket.dll
+  xsocket.vcxproj -> ..\..\..\bin\xsocket.pdb (Full PDB)
